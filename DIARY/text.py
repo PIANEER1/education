@@ -13,3 +13,5 @@ TEXT_WRITE_INPUT = 'напиши свое сообщение для напоми
 FILE_NOT_FOUND = 'такого файла не существует: '
 
 DATE_WRITE_INPUT = 'введите дату в формате число.месяц.год: '
+
+DATE_MESSAGE_PRINT = "Дата:{date}, Сообщение: {message} "

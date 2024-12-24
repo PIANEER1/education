@@ -10,7 +10,7 @@ def write():
     file = open('my_diary.txt',"a", encoding="UTF-8")
     text_user = input(text.TEXT_WRITE_INPUT )
     today = datetime.datetime.now()
-    today = today.strftime("%d.%m.%Y %H-%M-%S")
+    today = today.strftime("%d.%m.%Y %H:%M:%S ")
     file.write(f'{today} --> {text_user}\n')
     file.close()
 # напоминание_______________________________________________________________
@@ -20,7 +20,7 @@ def alarm_write():
     text_user = input(text.TEXT_WRITE_INPUT)
     file.write(f'{date} 00:00:00 --> {text_user}\n')
     file.close()
-    
+
 def command():
     """
     команды для записи/чтения дневник.
